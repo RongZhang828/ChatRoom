@@ -20,6 +20,10 @@ public class ClientLayout {
 		lo.setBounds(200, 200, 500, 400);
 	}
 
+	public SetLayout getClientLayout(){
+		return this.lo;
+	}
+	
 	public void setServerLabel(String serverLabel) {
 		lo.setLabel(serverLabel, 10, 8, 50, 30);
 	}

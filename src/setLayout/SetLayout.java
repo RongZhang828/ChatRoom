@@ -17,9 +17,10 @@ public class SetLayout {
 		window.setLayout(null);
 	}
 	
-	public JFrame startWindow(){
+	public JFrame getWindow(){
 		return window;
 	}
+	
 	
 	public void setBounds(int a, int b, int c, int d) {
 		window.setBounds(a, b, c, d);
